@@ -1,0 +1,23 @@
+
+
+.App-header {
+  background-image: url(https://www.petmd.com/sites/default/files/petmd-shaking-puppy.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
