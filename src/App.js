@@ -11,6 +11,7 @@ class App extends Component {
     });
 
     const layers = Cities.map(city => {
+      // can do if statements for what color each city should be 
       return(
           <Feature coordinates={[city.latitude, city.longitude]}
           key={city.rank} />
@@ -27,9 +28,14 @@ class App extends Component {
           zoom= {[2.5]}>
 
           <Layer
-            type="symbol"
+            type="circle"
             id="marker"
-            layout={{ "icon-image": "marker-15" }}
+            layout={{}}
+            paint={{
+              'circle-radius': 10,
+              'circle-color': '#FF0000',
+              'circle-opacity': 0.8
+            }}
           >
             {layers}
           </Layer>
