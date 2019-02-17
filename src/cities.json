@@ -1,0 +1,62 @@
+[
+    {
+        "land_mark": "Christ the Redeemer",
+        "latitude": -43.2105,
+        "longitude": -22.9519,
+        "rank": "10"
+    },
+    {
+        "land_mark": "Mount Fuji",
+        "latitude": 138.7278,
+        "longitude": 35.3606,
+        "rank": "9"
+    },
+    {
+        "land_mark": "Golden State Bridge",
+        "latitude": -122.4783,
+        "longitude": 37.8199,
+        "rank": "8"
+    },
+    {
+        "land_mark": "Sydney Opera house",
+        "latitude": 151.2153,
+        "longitude": -33.8568,
+        "rank": "7"
+    },
+    {
+        "land_mark": "The Great Pyramid of Giza",
+        "latitude": 31.1342,
+        "longitude": 29.9792,
+        "rank": "6"
+    },
+    {
+        "land_mark": "The Colosseum",
+        "latitude": 12.4922,
+        "longitude": 41.8902,
+        "rank": "5"
+    },
+    {
+        "land_mark": "Taj Mahal",
+        "latitude": 78.0422,
+        "longitude": 27.1750,
+        "rank": "4"
+    },
+    {
+        "land_mark": "The Great Wall of China",
+        "latitude": 116.5704,
+        "longitude": 40.4319,
+        "rank": "3"
+    },
+    {
+        "land_mark": "Eiffel Tower",
+        "latitude": 2.2945,
+        "longitude": 48.8584,
+        "rank": "2"
+    },
+    {
+        "land_mark": "The Statue of Liberty",
+        "latitude": -74.0445,
+        "longitude": 40.6892,
+        "rank": "1"
+    }
+]
