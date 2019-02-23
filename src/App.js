@@ -9,9 +9,11 @@ class App extends Component {
     const Map = ReactMapboxGl({
       accessToken: "pk.eyJ1IjoiYXN5bWVzMSIsImEiOiJjanM5YXIyengwbzU3M3pta3NkZzl4bjB4In0.FbEMo7fIArx_TRgnrDs-pw"
     });
+    // can do if statements for what color each city should be
+    //break cities up by ranks - different layers, different colors, different radius
+    // if you want dots to be different it is the layers but multiple dots with that style is feature 
 
     const layers = Cities.map(city => {
-      // can do if statements for what color each city should be 
       return(
           <Feature coordinates={[city.latitude, city.longitude]}
           key={city.rank} />
